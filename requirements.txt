@@ -1,0 +1,16 @@
+# --- Extract Phase Dependencies ---
+# Used for making HTTP requests to fetch the forum JSON data.
+requests
+
+
+# --- Transform Phase Dependencies (to be added later) ---
+# Used for parsing HTML if needed, but primarily for NLP and data cleaning.
+# We will add these when we move to the Transform phase.
+beautifulsoup4
+pandas
+nltk
+scikit-learn
+
+# --- Load Phase Dependencies (to be added later) ---
+# Used for connecting to the PostgreSQL/Supabase database.
+psycopg2-binary
